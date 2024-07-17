@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    height: 10vh;
+    padding: 0 150px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+} 
+
+nav .menu{
+    width: 500px;
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;  
+    cursor: pointer; 
+}
+nav .menu a:hover{
+    color: #387ed1;
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    padding: 10px;
+    width: 1000px;
+}
+.content{
+    font-size: 1.5vw;
+    width: 100%;
+    margin-top: 0px;
+    height: 20vh;
+    text-align: center;
+}
+
+.sign-in{
+    background-color: #387ed1;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sign-in:hover{
+    background-color: black;
+}
